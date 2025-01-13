@@ -36,6 +36,23 @@ SPORTS_DATA_API_KEY=your_api_key_here
 NBA_ENDPOINT=https://api.sportsdata.io/v3/nba/scores/json/Players
 ```
 
+## Implementation Steps
+
+1. **Install Dependencies**
+```bash
+pip install -r requirements.txt
+```
+
+2. **Configure Environment**
+   - Set up AWS credentials
+   - Create `.env` file with API keys
+   - Verify service access
+
+3. **Run the Application**
+```bash
+python nba_datalake.py
+```
+
 ### Main Components
 
 1. **S3 Bucket Creation**
@@ -68,23 +85,6 @@ CREATE TABLE nba_players (
     Position string,
     Points int
 )
-```
-
-## Implementation Steps
-
-1. **Install Dependencies**
-```bash
-pip install -r requirements.txt
-```
-
-2. **Configure Environment**
-   - Set up AWS credentials
-   - Create `.env` file with API keys
-   - Verify service access
-
-3. **Run the Application**
-```bash
-python nba_datalake.py
 ```
 
 ## Future Enhancements
