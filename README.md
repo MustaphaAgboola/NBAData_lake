@@ -106,6 +106,6 @@ This project provides a foundation for building a comprehensive sports analytics
 
 ## Resources
 - [AWS Documentation](https://docs.aws.amazon.com/)
-<!-- - [SportsData.io API Docs](https://sportsdata.io/developers/api-documentation/nba) -->
+- [SportsData.io API Docs](https://sportsdata.io/developers/api-documentation/nba)
 - [Boto3 Documentation](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
 - [DevOpsAllStarsChallenge](https://youtu.be/RAkMac2QgjM?si=176AlkYqCxR_v5wl)
